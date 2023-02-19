@@ -36,10 +36,10 @@ class OptionCategory
 	{
 		_name = catName;
 		_options = options;
-		
-		class AndroidControls extends Option
-                
-
+	}
+}
+class AndroidControls extends Option
+{
 	public function new()
 	{
 		super();
@@ -57,7 +57,6 @@ class OptionCategory
 		return "Android Controls";
 	}
 }
-
 class Option
 {
 	public function new()
