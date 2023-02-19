@@ -36,6 +36,7 @@ class OptionCategory
 	{
 		_name = catName;
 		_options = options;
+		
 		class AndroidControls extends Option
 {
 	public function new()
