@@ -43,8 +43,11 @@ class AndroidControls extends Option
 {
 
 	public function new()	{
-
+{
 		super();
+}
+	
+		
 public override function press():Bool
 
 	{		trace("switch");
