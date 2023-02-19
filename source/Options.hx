@@ -49,7 +49,7 @@ class AndroidControls extends Option
 	
 		
 public override function press():Bool
-
+{
 	{		trace("switch");
 
 		FlxG.switchState(new android.AndroidControlsMenu());
