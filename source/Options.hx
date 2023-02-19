@@ -39,8 +39,8 @@ class OptionCategory
 		
 		
 		class AndroidControls extends Option
-
-		{
+{
+		
 	public function new()
 	{
 		super();
