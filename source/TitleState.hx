@@ -24,7 +24,9 @@ import io.newgrounds.NG;
 import lime.app.Application;
 import openfl.Assets;
 
-
+#if windows
+import Discord.DiscordClient;
+#end
 
 #if cpp
 import sys.thread.Thread;
@@ -36,7 +38,7 @@ class TitleState extends MusicBeatState
 {
 	static var initialized:Bool = false;
 
-	var blackScreen:FlxSprite; desktop
+	var blackScreen:FlxSprite;
 	var credGroup:FlxGroup;
 	var credTextShit:Alphabet;
 	var textGroup:FlxGroup;
@@ -520,4 +522,4 @@ class TitleState extends MusicBeatState
 			skippedIntro = true;
 		}
 	}
-}
+}	
