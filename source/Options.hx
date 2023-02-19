@@ -38,7 +38,7 @@ class OptionCategory
 		_options = options;
 		
 		class AndroidControls extends Option
-                {
+                
 
 	public function new()
 	{
